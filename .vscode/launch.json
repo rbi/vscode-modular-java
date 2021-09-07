@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Demo - not working with shortenCommandLine=argfile",
+            "request": "launch",
+            "mainClass": "de.bieniek_it.vscode_modular_java/de.bieniek_it.vscode_modular_java.Demo",
+            "projectName": "vscode-modular-java",
+            "shortenCommandLine": "argfile"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo - working with shortenCommandLine=none",
+            "request": "launch",
+            "mainClass": "de.bieniek_it.vscode_modular_java/de.bieniek_it.vscode_modular_java.Demo",
+            "projectName": "vscode-modular-java",
+            "shortenCommandLine": "none"
+        }
+    ]
+}
